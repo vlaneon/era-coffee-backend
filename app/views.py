@@ -6,6 +6,8 @@ from rest_framework.permissions import IsAuthenticated, AllowAny, IsAdminUser
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 from decimal import Decimal
+from django.http import JsonResponse
+from cloudinary.uploader import upload
 from django.contrib.auth import authenticate
 from django.utils import timezone
 from .models import User, Product, CartItem, Order, LoyaltyCard
@@ -16,7 +18,6 @@ from .serializers import (
     ProductSerializer,
     CartItemSerializer
 )
-
 
 # Регистрация
 @api_view(['POST'])
@@ -374,3 +375,10 @@ def change_password(request):
     user.set_password(new_password)
     user.save()
     return Response({'message': 'Пароль изменён'})
+
+def test_cloudinary(request):
+    try:
+        result = upload("https://www.python.org/static/img/python-logo.png")
+        return JsonResponse({'status': 'ok', 'url': result['secure_url']})
+    except Exception as e:
+        return JsonResponse({'status': 'error', 'message': str(e)})

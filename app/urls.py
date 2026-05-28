@@ -16,4 +16,5 @@ urlpatterns = [
     path('api/orders/<int:order_id>/status/', views.update_order_status, name='update_order_status'),
     path('api/password-reset/', views.password_reset, name='password_reset'),
     path('api/profile/change-password/', views.change_password, name='change_password'),
+    path('api/test-cloudinary/', views.test_cloudinary, name='test_cloudinary'),
 ]
