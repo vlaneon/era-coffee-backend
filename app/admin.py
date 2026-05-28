@@ -1,7 +1,8 @@
 from django.contrib import admin
 from django import forms
-from .models import Category, Product, CartItem, Order, LoyaltyCard, User, Order
+from .models import Category, Product, CartItem, Order, LoyaltyCard, User
 import json
+
 
 class ProductForm(forms.ModelForm):
     ADDON_TYPES = [
@@ -51,6 +52,7 @@ class ProductForm(forms.ModelForm):
             instance.save()
         return instance
 
+
 class ProductAdmin(admin.ModelAdmin):
     form = ProductForm
     list_display = ['name', 'get_categories', 'price', 'is_hit', 'available', 'created_at']
@@ -77,18 +79,17 @@ class ProductAdmin(admin.ModelAdmin):
         return ", ".join([c.get_name_display() for c in obj.categories.all()])
     get_categories.short_description = 'Категории'
 
-admin.site.register(Product, ProductAdmin)
-admin.site.register(CartItem)
 
 class OrderAdmin(admin.ModelAdmin):
     list_display = ['id', 'user', 'total_price', 'status', 'address', 'created_at']
     list_filter = ['status']
     list_editable = ['status']
 
-admin.site.register(Order, OrderAdmin)
+
+# Регистрация моделей (каждая — только один раз)
+admin.site.register(Product, ProductAdmin)
 admin.site.register(Category)
-admin.site.register(Product)
 admin.site.register(CartItem)
-admin.site.register(Order)
+admin.site.register(Order, OrderAdmin)
 admin.site.register(LoyaltyCard)
 admin.site.register(User)
