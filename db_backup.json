@@ -1,0 +1,6363 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "cartitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "app",
+    "model": "loyaltycard"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hnak28yipuob6cl5weh4bxi9ekd30cds",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4b1PScwZr17vgALKlOKkQd4dIKaB9M_NeIsO61LwOnvNE4iSMOPxuCOXBbQN0h3brsvS2zBPKTZE7HfLSiZ_n3f07qDDqt7ZgoouabUAwBHT0HFBprZAcJiavg7OorrZoxY69LwkwEVgokQ0X8f4A7W04uQ:1wN8Yj:ez9A8auejBhV_FR3lnqV5vosGJUB5j0Dhc_U_8dThok",
+    "expire_date": "2026-05-27T12:19:29.124Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zds0sjybdmkd6igpu52obr0mbov7yhta",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4b1PScwZr17vgALKlOKkQd4dIKaB9M_NeIsO61LwOnvNE4iSMOPxuCOXBbQN0h3brsvS2zBPKTZE7HfLSiZ_n3f07qDDqt7ZgoouabUAwBHT0HFBprZAcJiavg7OorrZoxY69LwkwEVgokQ0X8f4A7W04uQ:1wQM6z:r6_iu28QPCC07HYuVxxpGt1HEbKXS_BJaBlbXh8xZVU",
+    "expire_date": "2026-06-05T09:24:09.295Z"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 1,
+  "fields": {
+    "name": "classic"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 2,
+  "fields": {
+    "name": "slider"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 3,
+  "fields": {
+    "name": "seasonal"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 4,
+  "fields": {
+    "name": "ice"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 5,
+  "fields": {
+    "name": "matcha"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 6,
+  "fields": {
+    "name": "author"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 7,
+  "fields": {
+    "name": "food"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 8,
+  "fields": {
+    "name": "dessert"
+  }
+},
+{
+  "model": "app.product",
+  "pk": 1,
+  "fields": {
+    "name": "Латте Пионовая Роза",
+    "price": "350.00",
+    "image": "image/upload/products/latte-peony_LnNEcsp.webp",
+    "description": "Латте с добавлением натурального экстракта розы и пудры из голубики",
+    "addons": [],
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-13T12:20:17.181Z",
+    "is_hit": false,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 2,
+  "fields": {
+    "name": "Латте Черная соль",
+    "price": "350.00",
+    "image": "image/upload/products/latte-salt.webp",
+    "description": "Латте с добавлением черной карамели и вулканической соли",
+    "addons": [],
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-13T12:21:25.239Z",
+    "is_hit": false,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 3,
+  "fields": {
+    "name": "Ветренный Латте",
+    "price": "350.00",
+    "image": "image/upload/products/latte-vetreny.webp",
+    "description": "Латте с добавлением домашнего ментолового сиропа и голубого сахара",
+    "addons": [],
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-13T12:21:50.095Z",
+    "is_hit": false,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 4,
+  "fields": {
+    "name": "Айс Латте Роза",
+    "price": "350.00",
+    "image": "image/upload/products/latte-ice.webp",
+    "description": "Освежающий напиток на основого розового молока и эспрессо",
+    "addons": [],
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-13T12:22:09.162Z",
+    "is_hit": true,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 5,
+  "fields": {
+    "name": "Лимонад Энгри Киви",
+    "price": "350.00",
+    "image": "image/upload/products/limonade-angrykiwi.webp",
+    "description": "Освежающий напиток с добавлением пюре киви и сладкой газировки",
+    "addons": [],
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-13T12:22:31.188Z",
+    "is_hit": false,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 6,
+  "fields": {
+    "name": "Эспрессо",
+    "price": "180.00",
+    "image": "image/upload/products/эспрессо.webp",
+    "description": "Крепкий и насыщенный. Основа всех кофейных напитков.",
+    "addons": {
+      "Сахар": 0
+    },
+    "available": true,
+    "volume": "30мл",
+    "created_at": "2026-05-14T07:20:19.813Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 7,
+  "fields": {
+    "name": "Лунго",
+    "price": "180.00",
+    "image": "image/upload/products/лунго.webp",
+    "description": "Более мягкий и объёмный, чем эспрессо. Долгая экстракция раскрывает глубину вкуса.",
+    "addons": {
+      "Сахар": 0
+    },
+    "available": true,
+    "volume": "60мл",
+    "created_at": "2026-05-14T07:25:12.527Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 8,
+  "fields": {
+    "name": "Фильтр-кофе",
+    "price": "200.00",
+    "image": "image/upload/products/филтр_кофе.webp",
+    "description": "Чистый, лёгкий, ароматный. Приготовлен методом пролива для мягкого вкуса без горечи.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "без молока": 0,
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "200мл",
+    "created_at": "2026-05-14T08:13:25.295Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 9,
+  "fields": {
+    "name": "Американо",
+    "price": "200.00",
+    "image": "image/upload/products/американо.webp",
+    "description": "Эспрессо с горячей водой. Крепкий, но более мягкий, чем чистый эспрессо.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "200мл",
+    "created_at": "2026-05-14T08:14:07.521Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 10,
+  "fields": {
+    "name": "Американо на молоке",
+    "price": "220.00",
+    "image": "image/upload/products/американо_на_молоке.webp",
+    "description": "Нежный американо с добавлением вспененного молока. Мягкий вкус с лёгкой сладостью.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-14T08:14:47.352Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 11,
+  "fields": {
+    "name": "Латте",
+    "price": "250.00",
+    "image": "image/upload/products/латте.webp",
+    "description": "Эспрессо с большим количеством горячего молока и лёгкой пенкой. Нежный и сливочный.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-14T08:15:28.661Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 12,
+  "fields": {
+    "name": "Капучино",
+    "price": "220.00",
+    "image": "image/upload/products/капуч.webp",
+    "description": "Классика: эспрессо, горячее молоко и густая молочная пенка. Плотный и бархатистый.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "200мл",
+    "created_at": "2026-05-14T08:16:10.780Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 13,
+  "fields": {
+    "name": "Флэт Уайт",
+    "price": "250.00",
+    "image": "image/upload/products/флэтуайт.webp",
+    "description": "Двойной эспрессо с бархатистым молоком. Меньше пены, больше кофейного вкуса.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "170мл",
+    "created_at": "2026-05-14T08:17:03.494Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 14,
+  "fields": {
+    "name": "Раф",
+    "price": "370.00",
+    "image": "image/upload/products/раф.webp",
+    "description": "Эспрессо, сливки и ванильный сахар, взбитые в нежную пену. Сладкий и сливочный.",
+    "addons": {
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0,
+        "кокосовый": 0
+      },
+      "Сливки": false
+    },
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T08:17:53.962Z",
+    "is_hit": false,
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 15,
+  "fields": {
+    "name": "Айс Американо",
+    "price": "280.00",
+    "image": "image/upload/products/айс_американо.webp",
+    "description": "Американо со льдом. Освежающий, бодрящий, идеален в жару.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T08:18:30.585Z",
+    "is_hit": false,
+    "categories": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 16,
+  "fields": {
+    "name": "Айс Латте",
+    "price": "290.00",
+    "image": "image/upload/products/айс_латте.webp",
+    "description": "Латте со льдом. Сливочный, прохладный, с насыщенным кофейным вкусом.",
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T08:19:09.860Z",
+    "is_hit": false,
+    "categories": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 17,
+  "fields": {
+    "name": "Айс Латте Черничный",
+    "price": "370.00",
+    "image": "image/upload/products/айс_латте_черника.webp",
+    "description": "Латте со льдом и черничным вкусом. Сливочный кофе с ягодной свежестью — прохладно и вкусно.",
+    "addons": {
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      }
+    },
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T15:33:12.851Z",
+    "is_hit": false,
+    "categories": [
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 18,
+  "fields": {
+    "name": "Айс Раф Банановый",
+    "price": "380.00",
+    "image": "image/upload/products/919305f47c111f193a7022aff9566b5_3.webp",
+    "description": "Холодный раф с банановым вкусом. Сливки, эспрессо и банан, взбитые со льдом в нежную пену.",
+    "addons": {
+      "Молоко": {
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      }
+    },
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T15:33:50.641Z",
+    "is_hit": false,
+    "categories": [
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 19,
+  "fields": {
+    "name": "Бамбл",
+    "price": "370.00",
+    "image": "image/upload/products/бамбл_карамел.webp",
+    "description": "Эспрессо, апельсиновый сок и лёд. Цитрусовая кислинка и кофейная глубина — неожиданное и яркое сочетание.",
+    "addons": {},
+    "available": true,
+    "volume": "400",
+    "created_at": "2026-05-14T15:34:26.463Z",
+    "is_hit": false,
+    "categories": [
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 20,
+  "fields": {
+    "name": "Эспрессо Тоник",
+    "price": "350.00",
+    "image": "image/upload/products/эспрессо_тоник.webp",
+    "description": "Эспрессо с тоником и льдом. Бодрящий кофе и освежающая горчинка тоника — популярный корейский тренд.",
+    "addons": {},
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T16:10:01.219Z",
+    "is_hit": false,
+    "categories": [
+      4
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 21,
+  "fields": {
+    "name": "Матча Классический",
+    "price": "320.00",
+    "image": "image/upload/products/матча_классический.webp",
+    "description": "Традиционный японский чай матча. Насыщенный, с глубоким вкусом и нежной горчинкой. Приготовлен по всем правилам.",
+    "addons": {},
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-14T16:11:43.013Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 22,
+  "fields": {
+    "name": "Матча Клубничный",
+    "price": "350.00",
+    "image": "image/upload/products/матча_клубничный.webp",
+    "description": "Классический матча с клубничной ноткой. Ягодная сладость подчёркивает бархатистый вкус японского чая.",
+    "addons": {},
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-14T16:12:48.011Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 23,
+  "fields": {
+    "name": "Матча Дыня-Черника",
+    "price": "350.00",
+    "image": "image/upload/products/матча_дыня_черникаэ.webp",
+    "description": "Матча с дынно-черничным сочетанием. Сладкая дыня и лесная черника — необычный микс для ценителей.",
+    "addons": {},
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-14T16:13:38.976Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 24,
+  "fields": {
+    "name": "Матча Лавана-Барбарис",
+    "price": "350.00",
+    "image": "image/upload/products/матча_лаванда_барбарис.webp",
+    "description": "Горячий матча с лавандовым спокойствием и кислинкой барбариса. Ароматный, сбалансированный, для уютных вечеров.",
+    "addons": {},
+    "available": false,
+    "volume": "300мл",
+    "created_at": "2026-05-14T16:14:13.830Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 25,
+  "fields": {
+    "name": "Айс Матча Земляника-Роза",
+    "price": "380.00",
+    "image": "image/upload/products/айс_матча_замляникароза.webp",
+    "description": "Матча с земляничным вкусом и тонким ароматом розы. Романтичный и освежающий напиток цвета сакуры.",
+    "addons": {},
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T16:15:10.262Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 26,
+  "fields": {
+    "name": "Айс Матча Банановый",
+    "price": "380.00",
+    "image": "image/upload/products/айс_матча_бананэ.webp",
+    "description": "Нежный матча-латте со льдом и натуральным банановым пюре. Сливочный, мягкий, с тропическим настроением.",
+    "addons": {},
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T16:16:45.538Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 27,
+  "fields": {
+    "name": "Айс Матча Черничный",
+    "price": "380.00",
+    "image": "image/upload/products/айс_матча_черника.webp",
+    "description": "Освежающий японский матча с ярким черничным вкусом. Сладкая ягода и благородная горчинка матчи — идеальный летний дуэт.",
+    "addons": {},
+    "available": true,
+    "volume": "400мл",
+    "created_at": "2026-05-14T16:17:33.216Z",
+    "is_hit": false,
+    "categories": [
+      5
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 28,
+  "fields": {
+    "name": "Лимонад Молоко Единорога",
+    "price": "350.00",
+    "image": "image/upload/products/limonade-milk_VKWUaT9.webp",
+    "description": "Освежающий напиток с добавлением пюре киви и сладкой газировки",
+    "addons": {},
+    "available": true,
+    "volume": "300мл",
+    "created_at": "2026-05-15T09:56:28.919Z",
+    "is_hit": false,
+    "categories": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 29,
+  "fields": {
+    "name": "Удон с  курицей и овощами",
+    "price": "400.00",
+    "image": "image/upload/products/удон.webp",
+    "description": "Нежная японская лапша, обжаренная с курицей, овощами и щепоткой кунжута",
+    "addons": {},
+    "available": true,
+    "volume": "250г",
+    "created_at": "2026-05-15T10:26:43.048Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 30,
+  "fields": {
+    "name": "Блинчики  с творогом",
+    "price": "350.00",
+    "image": "image/upload/products/блинчики.webp",
+    "description": "Нежные блинчики с начинкой из домашнего творога",
+    "addons": {},
+    "available": true,
+    "volume": "160г",
+    "created_at": "2026-05-15T10:27:15.434Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 31,
+  "fields": {
+    "name": "Соба с говядиной",
+    "price": "380.00",
+    "image": "image/upload/products/соба.webp",
+    "description": "Гречневая лапша с ломтиками нежной говядины, бобами эдамамэ и пряной приправой",
+    "addons": {},
+    "available": true,
+    "volume": "280г",
+    "created_at": "2026-05-15T10:28:11.146Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 32,
+  "fields": {
+    "name": "Киш с  курицей и грибами",
+    "price": "350.00",
+    "image": "image/upload/products/киш.webp",
+    "description": "Традиционный пирог с обжаренными грибами, куриной грудкой и сыром",
+    "addons": {},
+    "available": true,
+    "volume": "140г",
+    "created_at": "2026-05-15T10:29:36.786Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 33,
+  "fields": {
+    "name": "Салат с киноа и печеной тыквой",
+    "price": "350.00",
+    "image": "image/upload/products/салат.webp",
+    "description": "Легкий и сытный салат с тыквой, томленной со специями в собственном соку. Подается с киноа и сыром фета",
+    "addons": {},
+    "available": true,
+    "volume": "180",
+    "created_at": "2026-05-15T10:30:05.085Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 34,
+  "fields": {
+    "name": "Круассан с ветчиной и сыром",
+    "price": "300.00",
+    "image": "image/upload/products/круассан.webp",
+    "description": "Круассан с ветчиной и сыром",
+    "addons": {},
+    "available": true,
+    "volume": "160",
+    "created_at": "2026-05-15T10:30:42.652Z",
+    "is_hit": false,
+    "categories": [
+      7
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 35,
+  "fields": {
+    "name": "Трубочка со сгущенкой",
+    "price": "100.00",
+    "image": "image/upload/products/трубочка.webp",
+    "description": "Домашние хрустящие трубочки с начинкой из вареной сгущенки",
+    "addons": {},
+    "available": true,
+    "volume": "80г",
+    "created_at": "2026-05-15T10:31:23.494Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 36,
+  "fields": {
+    "name": "Сырники",
+    "price": "300.00",
+    "image": "image/upload/products/сырники.webp",
+    "description": "Идеальные сырники для завтрака из домашнего творога. Подаются с вишневым джемом",
+    "addons": {},
+    "available": true,
+    "volume": "150 / 30 г",
+    "created_at": "2026-05-15T10:31:47.767Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 37,
+  "fields": {
+    "name": "Панна-кота ягодная и Черепаха",
+    "price": "450.00",
+    "image": "image/upload/products/панна_и_черепаха.webp",
+    "description": "Любимые десерты в удобной упаковке – легко взять с собой",
+    "addons": {},
+    "available": true,
+    "volume": "",
+    "created_at": "2026-05-15T10:32:39.736Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 38,
+  "fields": {
+    "name": "Панна-кота",
+    "price": "250.00",
+    "image": "image/upload/products/панна_кота.webp",
+    "description": "Сливочный десерт с насыщенным ягодным мусом",
+    "addons": {},
+    "available": true,
+    "volume": "150г",
+    "created_at": "2026-05-15T10:33:21.020Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 39,
+  "fields": {
+    "name": "Черепаха «капелька»",
+    "price": "250.00",
+    "image": "image/upload/products/черепаха.webp",
+    "description": "Классический десерт со сметанными кремом и шоколадными капельками",
+    "addons": {},
+    "available": true,
+    "volume": "160 г",
+    "created_at": "2026-05-15T10:33:53.359Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 40,
+  "fields": {
+    "name": "Кольцо  заварное с кремом",
+    "price": "250.00",
+    "image": "image/upload/products/кольцо_заварное.webp",
+    "description": "Кольцо \r\nзаварное с кремом",
+    "addons": {},
+    "available": true,
+    "volume": "120 г",
+    "created_at": "2026-05-15T10:34:19.174Z",
+    "is_hit": false,
+    "categories": [
+      8
+    ]
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Token",
+    "content_type": [
+      "authtoken",
+      "tokenproxy"
+    ],
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Token",
+    "content_type": [
+      "authtoken",
+      "tokenproxy"
+    ],
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": [
+      "authtoken",
+      "tokenproxy"
+    ],
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Token",
+    "content_type": [
+      "authtoken",
+      "tokenproxy"
+    ],
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add product",
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change product",
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete product",
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view product",
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "app",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "app",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "app",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "app",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart item",
+    "content_type": [
+      "app",
+      "cartitem"
+    ],
+    "codename": "add_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart item",
+    "content_type": [
+      "app",
+      "cartitem"
+    ],
+    "codename": "change_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart item",
+    "content_type": [
+      "app",
+      "cartitem"
+    ],
+    "codename": "delete_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart item",
+    "content_type": [
+      "app",
+      "cartitem"
+    ],
+    "codename": "view_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add category",
+    "content_type": [
+      "app",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change category",
+    "content_type": [
+      "app",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete category",
+    "content_type": [
+      "app",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view category",
+    "content_type": [
+      "app",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add order",
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change order",
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete order",
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view order",
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add loyalty card",
+    "content_type": [
+      "app",
+      "loyaltycard"
+    ],
+    "codename": "add_loyaltycard"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change loyalty card",
+    "content_type": [
+      "app",
+      "loyaltycard"
+    ],
+    "codename": "change_loyaltycard"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete loyalty card",
+    "content_type": [
+      "app",
+      "loyaltycard"
+    ],
+    "codename": "delete_loyaltycard"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view loyalty card",
+    "content_type": [
+      "app",
+      "loyaltycard"
+    ],
+    "codename": "view_loyaltycard"
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Hy32Mqr7H12qaP4K4kN0OZ$ld0x61DYns0XCjbUPsnbFq+3k0sIY/jVnwaDMr1Z0Bc=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "AdminVlada",
+    "first_name": "Влада",
+    "last_name": "",
+    "email": "vlamae@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-11T11:24:56.226Z",
+    "phone": "+79644518897",
+    "address": "г Владивосток, ул Калинина, д 295, кв 24",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fTeKiyvnKM7HJkDiUNAohU$IloVABpjXc+TgnmoAL6XVRG5oqOyOTDz4mdy2FySTQk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test123",
+    "first_name": "test123",
+    "last_name": "",
+    "email": "test123@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-12T04:34:31.372Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gi8p2KyqyB2qmR3ImDZ1jt$0EHG06p0/bqWDeS1qrGq4K9adjc+CzAemqU8Nj6KLwc=",
+    "last_login": "2026-05-22T09:24:09.289Z",
+    "is_superuser": true,
+    "username": "VladaAdmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "vlamae@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-13T12:14:13.503Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5SKsrintEESaB46XBZa6dv$VksihFqaIwKfjL89GFnvdx1ERxQhtA282evXbOy/XAY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test555",
+    "first_name": "Лол",
+    "last_name": "",
+    "email": "test555@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-24T10:20:44.112Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$vpOU4LjC3k6Oh3lyNBrdHY$wu9W+kLwtjfywCAtc6pzqKMTrOs389w4AqLlU4Yxisg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vlspxrk",
+    "first_name": "KKFkfkf",
+    "last_name": "",
+    "email": "vlspxrk@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T07:07:38.434Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$GrAJD8qpsFLv0zp2g5TSks$q/V9U3hT6ICdqoB2IXhOwuZTxrwLovigJgtmJJgoFr8=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Vlada",
+    "first_name": "",
+    "last_name": "",
+    "email": "vlamae@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-28T08:36:40.990Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$dDhqWrY4CduIux30B4yo60$CjkRJrSeWex/9vtZijgeMml+ZdY27OEkQ8WkH2Lg5EU=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "vlamae@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-28T08:46:54.075Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$zBkTVKXiXRzdv5NlFg14LI$WB1q8szNbMUIZeLvGN3IlfVQrD8rGI29Gl0/ix5gPFE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vlamae",
+    "first_name": "Vlada",
+    "last_name": "",
+    "email": "vlamae@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-28T09:13:03.725Z",
+    "phone": null,
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 70,
+  "fields": {
+    "user": [
+      "test555"
+    ],
+    "product": 8,
+    "quantity": 1,
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "без молока": 1,
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "added_at": "2026-05-25T10:19:33.488Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 74,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 8,
+    "quantity": 1,
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "без молока": 1,
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "added_at": "2026-05-27T09:37:10.083Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 75,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 12,
+    "quantity": 1,
+    "addons": {
+      "Сахар": 0,
+      "Молоко": {
+        "коровье": 1,
+        "миндальное": 0,
+        "овсяное": 0
+      },
+      "Сироп": {
+        "ванильный": 0,
+        "карамельный": 0
+      },
+      "Корица": false
+    },
+    "added_at": "2026-05-27T09:37:15.207Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 76,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 17,
+    "quantity": 1,
+    "addons": {
+      "Молоко": {
+        "без молока": 1,
+        "коровье": 0,
+        "миндальное": 0,
+        "овсяное": 0
+      }
+    },
+    "added_at": "2026-05-27T09:37:25.811Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 77,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 23,
+    "quantity": 1,
+    "addons": {},
+    "added_at": "2026-05-27T09:37:35.392Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 78,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 26,
+    "quantity": 1,
+    "addons": {},
+    "added_at": "2026-05-27T09:37:38.582Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 79,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 3,
+    "quantity": 1,
+    "addons": {},
+    "added_at": "2026-05-27T09:37:48.546Z"
+  }
+},
+{
+  "model": "app.cartitem",
+  "pk": 80,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "product": 31,
+    "quantity": 1,
+    "addons": {},
+    "added_at": "2026-05-27T09:37:52.126Z"
+  }
+},
+{
+  "model": "app.order",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "2000.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "",
+    "created_at": "2026-05-22T06:53:27.366Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "304.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "ERA20",
+    "created_at": "2026-05-22T07:13:28.802Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "400.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T07:37:20.993Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "6615.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "ERA10",
+    "created_at": "2026-05-22T09:15:22.454Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "0.00",
+    "status": "accepted",
+    "address": "Енисейская — ул.Енисейская, 23Д,К2",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T09:16:34.219Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "250.00",
+    "status": "accepted",
+    "address": "Енисейская — ул.Енисейская, 23Д,К2",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T09:19:21.882Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "200.00",
+    "status": "accepted",
+    "address": "Енисейская — ул.Енисейская, 23Д,К2",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T09:30:33.138Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "180.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T09:31:43.329Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "200.00",
+    "status": "accepted",
+    "address": "Енисейская — ул.Енисейская, 23Д,К2",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-22T09:33:29.235Z",
+    "ready_at": null,
+    "items_data": [],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "200.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "",
+    "created_at": "2026-05-22T10:07:42.399Z",
+    "ready_at": null,
+    "items_data": [
+      {
+        "name": "Американо",
+        "price": "200.00",
+        "quantity": 1,
+        "addons": {
+          "Сахар": 0,
+          "Молоко": {
+            "без молока": 1,
+            "коровье": 0,
+            "миндальное": 0,
+            "овсяное": 0
+          },
+          "Сироп": {
+            "ванильный": 0,
+            "карамельный": 0
+          },
+          "Корица": false
+        },
+        "total": "200.00"
+      }
+    ],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "1130.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "",
+    "created_at": "2026-05-22T10:10:29.688Z",
+    "ready_at": null,
+    "items_data": [
+      {
+        "name": "Флэт Уайт",
+        "price": "250.00",
+        "quantity": 2,
+        "addons": {
+          "Сахар": 0,
+          "Молоко": {
+            "без молока": 1,
+            "коровье": 0,
+            "миндальное": 0,
+            "овсяное": 0
+          },
+          "Сироп": {
+            "ванильный": 0,
+            "карамельный": 0
+          },
+          "Корица": false
+        },
+        "total": "500.00"
+      },
+      {
+        "name": "Соба с говядиной",
+        "price": "380.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "380.00"
+      },
+      {
+        "name": "Панна-кота",
+        "price": "250.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "250.00"
+      }
+    ],
+    "discounts": [],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "597.50",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "cash",
+    "promo": "",
+    "created_at": "2026-05-22T10:42:41.015Z",
+    "ready_at": null,
+    "items_data": [
+      {
+        "name": "Круассан с ветчиной и сыром",
+        "price": "300.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "300.00"
+      },
+      {
+        "name": "Айс Латте Роза",
+        "price": "350.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "350.00"
+      }
+    ],
+    "discounts": [
+      "🥐 Комбо \"Завтрак бариста\": скидка 15% (-52₽)"
+    ],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "test555"
+    ],
+    "total_price": "697.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "card",
+    "promo": "MAXCOFFEE",
+    "created_at": "2026-05-24T10:22:46.716Z",
+    "ready_at": null,
+    "items_data": [
+      {
+        "name": "Лунго",
+        "price": "180.00",
+        "quantity": 1,
+        "addons": {
+          "Сахар": 0
+        },
+        "total": "180.00"
+      },
+      {
+        "name": "Айс Латте",
+        "price": "290.00",
+        "quantity": 1,
+        "addons": {
+          "Сахар": 0,
+          "Молоко": {
+            "коровье": 0,
+            "миндальное": 1,
+            "овсяное": 0
+          },
+          "Сироп": {
+            "ванильный": 0,
+            "карамельный": 0
+          },
+          "Корица": false
+        },
+        "total": "290.00"
+      },
+      {
+        "name": "Удон с  курицей и овощами",
+        "price": "400.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "400.00"
+      }
+    ],
+    "discounts": [
+      "🍜 Комбо \"Обед\": скидка 50₽",
+      "🎫 Промокод Max: скидка 15%"
+    ],
+    "items": []
+  }
+},
+{
+  "model": "app.order",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "total_price": "270.00",
+    "status": "accepted",
+    "address": "АЦ \"Sky City\" — АЛЕУТСКАЯ 45",
+    "payment": "card",
+    "promo": "",
+    "created_at": "2026-05-26T05:43:16.587Z",
+    "ready_at": null,
+    "items_data": [
+      {
+        "name": "Фильтр-кофе",
+        "price": "200.00",
+        "quantity": 1,
+        "addons": {
+          "Сахар": 0,
+          "Молоко": {
+            "без молока": 1,
+            "коровье": 0,
+            "миндальное": 0,
+            "овсяное": 0
+          },
+          "Сироп": {
+            "ванильный": 0,
+            "карамельный": 0
+          },
+          "Корица": false
+        },
+        "total": "200.00"
+      },
+      {
+        "name": "Круассан с ветчиной и сыром",
+        "price": "300.00",
+        "quantity": 1,
+        "addons": {},
+        "total": "300.00"
+      }
+    ],
+    "discounts": [
+      "Бесплатный напиток: Фильтр-кофе (-200.00₽)",
+      "🥐 Комбо \"Завтрак бариста\": скидка 15% (-30₽)"
+    ],
+    "items": []
+  }
+},
+{
+  "model": "app.loyaltycard",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "stamps": 9,
+    "total_orders": 26
+  }
+},
+{
+  "model": "app.loyaltycard",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "test555"
+    ],
+    "stamps": 3,
+    "total_orders": 1
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "11a024fddf26d70225f1144397e921412687cb2c",
+  "fields": {
+    "user": [
+      "AdminVlada"
+    ],
+    "created": "2026-05-11T11:25:43.737Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "25d70ab96f2f0b59d27820d8a7ce8525a3cc9c61",
+  "fields": {
+    "user": [
+      "vlamae"
+    ],
+    "created": "2026-05-28T09:13:04.696Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "3f9084b548eeba5a0e4c25001787ffe42de4d4c7",
+  "fields": {
+    "user": [
+      "vlspxrk"
+    ],
+    "created": "2026-05-28T07:07:39.507Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4c3b4213817e169727856050a9d9bd41992a54f8",
+  "fields": {
+    "user": [
+      "test555"
+    ],
+    "created": "2026-05-24T10:20:45.168Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "87a54605228f383e6241c694aa82a4d50abd577d",
+  "fields": {
+    "user": [
+      "test123"
+    ],
+    "created": "2026-05-12T04:34:32.631Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-13T12:20:17.184Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-13T12:20:51.130Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-13T12:21:25.242Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-13T12:21:50.098Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-13T12:22:09.164Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-13T12:22:31.189Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-13T12:25:50.746Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "хуйййййй",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-13T12:26:34.794Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "хуйййййй",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-13T12:29:03.708Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "хук566у",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-13T12:29:21.274Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "хук566у",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-13T12:29:25.513Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is hit\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-14T07:09:51.297Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-14T07:09:54.401Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-14T07:09:56.481Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-14T07:09:59.600Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-14T07:10:02.039Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-14T07:10:04.584Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-14T07:10:10.509Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-14T07:10:12.231Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-14T07:10:13.858Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-14T07:10:15.301Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-14T07:10:16.647Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-14T07:20:19.815Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-14T07:25:12.528Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Лунго",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-14T08:13:25.298Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-14T08:14:07.523Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-14T08:14:19.312Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-14T08:14:47.354Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-14T08:15:28.663Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-14T08:16:10.782Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-14T08:17:03.495Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-05-14T08:17:53.965Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-05-14T08:17:57.387Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is hit\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-05-14T08:18:04.769Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is hit\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-05-14T08:18:30.587Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-05-14T08:19:09.861Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-05-14T08:40:03.224Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-05-14T08:45:24.756Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-05-14T08:48:05.707Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-05-14T08:55:13.101Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-05-14T08:55:46.281Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-05-14T08:56:16.822Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Лунго",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-05-14T08:56:38.896Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-05-14T08:56:45.581Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-05-14T08:56:59.047Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-05-14T08:57:03.093Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-05-14T08:57:20.451Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-05-14T08:57:51.001Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-05-14T08:57:54.653Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-05-14T08:57:58.113Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-05-14T08:58:01.116Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-05-14T08:58:04.508Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-05-14T08:58:07.594Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-05-14T08:58:50.137Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-05-14T08:58:55.334Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-05-14T08:59:00.891Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-05-14T08:59:05.978Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-05-14T08:59:12.860Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-05-14T08:59:16.293Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-05-14T08:59:21.092Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-05-14T08:59:24.162Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-05-14T09:05:26.566Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-05-14T09:05:40.977Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Лунго",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-05-14T09:05:54.182Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-05-14T09:06:10.723Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-05-14T09:06:33.964Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-05-14T09:06:50.058Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-05-14T09:07:58.352Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-05-14T09:08:07.405Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-05-14T09:08:20.593Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-05-14T09:08:32.199Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-05-14T09:08:45.512Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-05-14T09:13:21.333Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-05-14T09:13:30.720Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-05-14T09:13:40.039Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-05-14T09:13:46.868Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-05-14T09:13:54.427Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-05-14T09:14:02.725Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-05-14T09:14:09.918Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-05-14T09:14:16.755Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Addons\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-05-14T12:55:00.218Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-05-14T13:06:57.288Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-05-14T13:08:06.220Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-05-14T13:24:57.842Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-05-14T13:28:38.082Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-05-14T13:29:15.514Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-05-14T13:32:07.142Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-05-14T13:32:18.097Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-05-14T13:32:38.118Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-05-14T13:32:52.860Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-05-14T13:33:01.723Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-05-14T13:33:06.243Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-05-14T13:33:11.730Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-05-14T13:33:15.684Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-05-14T14:42:17.425Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-05-14T15:10:31.414Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-05-14T15:11:06.267Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-05-14T15:11:20.054Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-05-14T15:11:47.264Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-05-14T15:11:55.333Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-05-14T15:11:59.686Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-05-14T15:12:04.823Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-05-14T15:12:10.566Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Лунго",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-05-14T15:12:14.741Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-05-14T15:12:19.371Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-05-14T15:12:23.197Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-05-14T15:12:28.119Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-05-14T15:12:32.441Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-05-14T15:12:36.857Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-05-14T15:12:40.902Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-05-14T15:12:44.987Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-05-14T15:33:12.860Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Айс Латте Черничный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-05-14T15:33:50.644Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Айс Раф Банановый",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-05-14T15:34:26.466Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Бамбл",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-05-14T15:35:04.301Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Бамбл",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-05-14T16:10:01.222Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "20",
+    "object_repr": "Эспрессо Тоник",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-05-14T16:10:26.427Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-05-14T16:11:43.016Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "21",
+    "object_repr": "Матча Классический",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-05-14T16:12:48.014Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "22",
+    "object_repr": "Матча Клубничный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-05-14T16:13:38.980Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "23",
+    "object_repr": "Матча Дыня-Черника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-05-14T16:14:13.833Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "24",
+    "object_repr": "Матча Лавана-Барбарис",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-05-14T16:15:10.266Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "25",
+    "object_repr": "Айс Матча Земляника-Роза",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-05-14T16:15:53.818Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "24",
+    "object_repr": "Матча Лавана-Барбарис",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-05-14T16:16:45.541Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "26",
+    "object_repr": "Айс Матча Банановый",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-05-14T16:17:33.219Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "27",
+    "object_repr": "Айс Матча Черничный",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-05-15T09:54:09.939Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-05-15T09:54:27.521Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2026-05-15T09:54:35.285Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2026-05-15T09:54:48.163Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2026-05-15T09:54:54.700Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categories\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2026-05-15T09:56:28.923Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "28",
+    "object_repr": "Лимонад Молоко Единорога",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2026-05-15T09:56:55.538Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Volume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2026-05-15T09:57:02.689Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Volume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2026-05-15T09:57:08.584Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Volume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2026-05-15T09:57:15.449Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Volume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2026-05-15T09:57:21.827Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2026-05-15T09:57:25.355Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2026-05-15T09:57:31.229Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Volume\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2026-05-15T10:26:43.053Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "29",
+    "object_repr": "Удон с  курицей и овощами",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2026-05-15T10:27:15.437Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "30",
+    "object_repr": "Блинчики  с творогом",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2026-05-15T10:28:11.150Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "31",
+    "object_repr": "Соба с говядиной",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2026-05-15T10:29:36.789Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "32",
+    "object_repr": "Киш с  курицей и грибами",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2026-05-15T10:30:05.090Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "33",
+    "object_repr": "Салат с киноа и печеной тыквой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2026-05-15T10:30:42.656Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "34",
+    "object_repr": "Круассан с ветчиной и сыром",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2026-05-15T10:31:23.498Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "35",
+    "object_repr": "Трубочка со сгущенкой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2026-05-15T10:31:47.770Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "36",
+    "object_repr": "Сырники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2026-05-15T10:32:39.740Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "37",
+    "object_repr": "Панна-кота ягодная и Черепаха",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2026-05-15T10:33:21.024Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "38",
+    "object_repr": "Панна-кота",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2026-05-15T10:33:53.363Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "39",
+    "object_repr": "Черепаха «капелька»",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2026-05-15T10:34:19.177Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "40",
+    "object_repr": "Кольцо  заварное с кремом",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2026-05-16T08:17:10.564Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "27",
+    "object_repr": "Айс Матча Черничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2026-05-16T08:17:23.908Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "26",
+    "object_repr": "Айс Матча Банановый",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2026-05-16T08:17:32.978Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "25",
+    "object_repr": "Айс Матча Земляника-Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2026-05-16T08:17:41.773Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "24",
+    "object_repr": "Матча Лавана-Барбарис",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2026-05-16T08:18:01.619Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "23",
+    "object_repr": "Матча Дыня-Черника",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2026-05-16T08:18:12.470Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "22",
+    "object_repr": "Матча Клубничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2026-05-16T08:18:23.256Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "21",
+    "object_repr": "Матча Классический",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2026-05-16T08:18:34.828Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "20",
+    "object_repr": "Эспрессо Тоник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2026-05-16T08:18:42.323Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Бамбл",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2026-05-16T08:18:53.605Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Айс Раф Банановый",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2026-05-16T08:19:02.089Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Айс Латте Черничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2026-05-16T08:19:49.039Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2026-05-16T08:20:12.739Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Айс Латте Черничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2026-05-16T08:20:24.477Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Айс Раф Банановый",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2026-05-16T08:23:04.400Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "28",
+    "object_repr": "Лимонад Молоко Единорога",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2026-05-16T08:23:07.830Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "Лимонад Энгри Киви",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2026-05-16T08:23:28.930Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Айс Латте Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2026-05-16T08:23:46.177Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Ветренный Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2026-05-16T08:23:58.497Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Латте Черная соль",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2026-05-16T08:24:13.710Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "Латте Пионовая Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2026-05-16T14:53:34.638Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "Заказ #1 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2026-05-16T14:53:46.278Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "Заказ #1 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2026-05-16T14:54:09.838Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "Заказ #1 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2026-05-18T11:33:23.214Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "2",
+    "object_repr": "Заказ #2 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2026-05-18T14:22:42.657Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "3",
+    "object_repr": "Заказ #3 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2026-05-18T14:45:34.136Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"addons_json\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.652Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "11",
+    "object_repr": "Заказ #11 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.653Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "9",
+    "object_repr": "Заказ #9 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.654Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Заказ #8 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.657Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "7",
+    "object_repr": "Заказ #7 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.658Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "6",
+    "object_repr": "Заказ #6 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.659Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "Заказ #5 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2026-05-18T15:26:45.661Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "4",
+    "object_repr": "Заказ #4 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2026-05-18T15:26:58.187Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "10",
+    "object_repr": "Заказ #10 - AdminVlada",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "15",
+    "object_repr": "Заказ #15 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "14",
+    "object_repr": "Заказ #14 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "13",
+    "object_repr": "Заказ #13 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "12",
+    "object_repr": "Заказ #12 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "11",
+    "object_repr": "Заказ #11 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "10",
+    "object_repr": "Заказ #10 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "9",
+    "object_repr": "Заказ #9 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Заказ #8 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "7",
+    "object_repr": "Заказ #7 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "6",
+    "object_repr": "Заказ #6 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "Заказ #5 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "4",
+    "object_repr": "Заказ #4 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "3",
+    "object_repr": "Заказ #3 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "2",
+    "object_repr": "Заказ #2 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2026-05-22T06:31:42.124Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "order"
+    ],
+    "object_id": "1",
+    "object_repr": "Заказ #1 - AdminVlada",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2026-05-28T06:12:38.981Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Эспрессо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2026-05-28T06:13:03.864Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Лунго",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2026-05-28T06:13:16.516Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Фильтр-кофе",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2026-05-28T06:13:29.404Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2026-05-28T06:13:41.269Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2026-05-28T06:13:47.677Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "10",
+    "object_repr": "Американо на молоке",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2026-05-28T06:13:58.495Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "11",
+    "object_repr": "Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2026-05-28T06:14:11.305Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "12",
+    "object_repr": "Капучино",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2026-05-28T06:14:27.509Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "13",
+    "object_repr": "Флэт Уайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2026-05-28T06:14:41.882Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "14",
+    "object_repr": "Раф",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2026-05-28T06:14:50.015Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "15",
+    "object_repr": "Айс Американо",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2026-05-28T06:15:01.559Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "16",
+    "object_repr": "Айс Латте",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2026-05-28T06:15:15.803Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "17",
+    "object_repr": "Айс Латте Черничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2026-05-28T06:15:26.279Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "18",
+    "object_repr": "Айс Раф Банановый",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2026-05-28T06:15:48.085Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "19",
+    "object_repr": "Бамбл",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2026-05-28T06:15:55.578Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "20",
+    "object_repr": "Эспрессо Тоник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2026-05-28T06:16:05.689Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "21",
+    "object_repr": "Матча Классический",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2026-05-28T06:16:16.321Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "22",
+    "object_repr": "Матча Клубничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2026-05-28T06:16:43.141Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "23",
+    "object_repr": "Матча Дыня-Черника",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2026-05-28T06:16:52.278Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "24",
+    "object_repr": "Матча Лавана-Барбарис",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2026-05-28T06:17:06.941Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "25",
+    "object_repr": "Айс Матча Земляника-Роза",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2026-05-28T06:17:18.817Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "26",
+    "object_repr": "Айс Матча Банановый",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2026-05-28T06:17:32.526Z",
+    "user": [
+      "VladaAdmin"
+    ],
+    "content_type": [
+      "app",
+      "product"
+    ],
+    "object_id": "27",
+    "object_repr": "Айс Матча Черничный",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+}
+]
