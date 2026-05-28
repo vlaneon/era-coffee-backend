@@ -1,4 +1,7 @@
 import os
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -107,4 +110,10 @@ REST_FRAMEWORK = {
     ]
 }
 
-AUTH_PASSWORD_VALIDATORS = []
+cloudinary.config(
+    cloud_name = 'dn3ku8mvi',
+    api_key = 'Root',
+    api_secret = '5q-_forjEjBv1hHgbt3AozlsYAM'
+)
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
