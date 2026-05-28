@@ -95,7 +95,7 @@ CORS_ALLOW_ALL_ORIGINS = False  # для разработки
 # для продакшена лучше указать конкретные домены:
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://era-coffee-frontend.vercel.app/',
+    'https://era-coffee-frontend.vercel.app',
 ]
 
 REST_FRAMEWORK = {
