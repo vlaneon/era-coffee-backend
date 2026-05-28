@@ -42,7 +42,9 @@ class ProductSerializer(serializers.ModelSerializer):
 
     def get_image_url(self, obj):
         if obj.image:
-            url, options = cloudinary_url(obj.image, secure=True)
+            # Преобразуем CloudinaryResource в строку (public_id)
+            public_id = str(obj.image)
+            url, options = cloudinary_url(public_id, secure=True)
             return url
         return None
 
