@@ -91,12 +91,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS настройки
-CORS_ALLOW_ALL_ORIGINS = True  # для разработки
+CORS_ALLOW_ALL_ORIGINS = False  # для разработки
 # для продакшена лучше указать конкретные домены:
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:3000',
-#     'https://ваш-проект.vercel.app',
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'https://era-coffee-frontend.vercel.app/',
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
