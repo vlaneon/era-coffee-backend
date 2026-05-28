@@ -112,7 +112,7 @@ REST_FRAMEWORK = {
 
 cloudinary.config(
     cloud_name = 'dn3ku8mvi',
-    api_key = 'Root',
+    api_key = '661985634419612',
     api_secret = '5q-_forjEjBv1hHgbt3AozlsYAM'
 )
 
