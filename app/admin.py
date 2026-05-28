@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Product, CartItem
-from .models import Order
+from .models import Category, Product, CartItem, Order, LoyaltyCard, User, Order
 import json
 
 class ProductForm(forms.ModelForm):
@@ -87,3 +86,9 @@ class OrderAdmin(admin.ModelAdmin):
     list_editable = ['status']
 
 admin.site.register(Order, OrderAdmin)
+admin.site.register(Category)
+admin.site.register(Product)
+admin.site.register(CartItem)
+admin.site.register(Order)
+admin.site.register(LoyaltyCard)
+admin.site.register(User)
