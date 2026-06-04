@@ -13,8 +13,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'your-secret-key-here')
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 # Разрешённые хосты
-ALLOWED_HOSTS = ['*']  # для локальной разработки
-# для продакшена замените на ['.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -96,8 +95,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS настройки
-CORS_ALLOW_ALL_ORIGINS = False  # для разработки
-# для продакшена лучше указать конкретные домены:
+CORS_ALLOW_ALL_ORIGINS = False  
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'https://era-coffee-frontend.vercel.app',
